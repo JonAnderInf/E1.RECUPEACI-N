@@ -1,4 +1,4 @@
-/*-------------------- HEADER --------------------*/
+/*-------------------- HEADER --------------------------------------------------------------------------------------------------------------------------------------------------------*/
 header {
   display: flex;
   justify-content: space-between;
@@ -32,7 +32,7 @@ header {
 
 
 
-/*-------------------- NAVEGADOR --------------------*/
+/*-------------------- NAVEGADOR ---------------------------------------------------------------------------------------------------------------------------------------------------*/
 .navegador {
   display: flex;
   justify-content: center;
@@ -76,7 +76,7 @@ header {
 }
   
 
-/*-------------------- FOOTER --------------------*/
+/*-------------------- FOOTER -----------------------------------------------------------------------------------------------------------------------------------------------*/
 footer {
   background-color: #222;
   color: #eee;
@@ -98,7 +98,7 @@ footer {
 }
 
 
-.contenido-footer > div {
+.contenido-footer div {
   flex: 1 1 30%;
   padding: 0 15px;
   box-sizing: border-box;
@@ -106,10 +106,6 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   margin-right: 20px;
-}
-
-.contenido-footer > div:last-child {
-  margin-right: 0;
 }
 
 
@@ -156,6 +152,7 @@ footer a:hover {
   background-color: #111;
   font-size: 11px; 
   color: #aaa;
+  margin-right: 0;
 }
 
 .barra-inferior a {
@@ -168,7 +165,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-  .contenido-footer > div {
+  .contenido-footer  div {
     align-items: center;
     margin: 0 0 15px 0;
   }
@@ -187,7 +184,7 @@ footer a:hover {
 }
   
 
-/*-------------------- HOME --------------------*/
+/*-------------------- HOME-pagina principal -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .robot-home {
   width: 100%;
   margin-top: 0;
@@ -280,7 +277,7 @@ footer a:hover {
   
 
 
-/*-------------------- PROYECTOS main--------------------*/
+/*-------------------- PROYECTOS Main-------------------------------------------------------------------------------------------------------------------------------------------------*/
 .contenido-proyectos {
   display: flex;
   flex-wrap: wrap;
@@ -348,10 +345,6 @@ tbody tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
-tbody tr:hover {
-  background-color: #e0f0ff;
-}
-
 a {
   color: #0c9dc9;
   text-decoration: none;
@@ -381,7 +374,7 @@ li {
 }
   
 
-/*-------------------- FORMULARIO --------------------*/
+/*-------------------- FORMULARIO Main ----------------------------------------------------------------------------------------------------------------------------------------------------*/
 .contenido-contacto {
   padding: 40px 20px;
   background-color: #f4f4f4;
@@ -404,6 +397,7 @@ li {
 
 .form-group {
   margin-bottom: 15px;
+  margin-right: 15px;
 }
 
 .form-row {
@@ -469,7 +463,7 @@ button:hover {
 }
   
 
-/*-------------------- DETALLE PROYECTO --------------------*/
+/*-------------------- DETALLE PROYECTO Main --------------------------------------------------------------------------------------------------------------------------------------------*/
 .contenido-detalle {
   max-width: 900px;
   margin: 0 auto;
@@ -486,14 +480,13 @@ button:hover {
 .contenido-detalle h2 {
   margin-top: 40px;
   font-size: 20px;
-  color: #333;
+  color: #131212;
   border-bottom: 2px solid #0c9dc9;
   padding-bottom: 5px;
 }
 
 table {
   width: 100%;
-  border-collapse: collapse;
   margin-top: 20px;
 }
 
