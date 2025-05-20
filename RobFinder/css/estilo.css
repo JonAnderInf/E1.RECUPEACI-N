@@ -20,6 +20,18 @@ header {
   height: 60px;
 }
 
+
+
+@media only screen and (max-width: 400px) {
+  header {
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+}
+  
+
+
+
 /*-------------------- NAVEGADOR --------------------*/
 .navegador {
   display: flex;
@@ -56,6 +68,13 @@ header {
 }
 
 
+@media only screen and (max-width: 400px) {
+  .navegador {
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+}
+  
 
 /*-------------------- FOOTER --------------------*/
 footer {
@@ -159,6 +178,14 @@ footer a:hover {
     text-align: center;
   }
 
+  
+@media only screen and (max-width: 400px) {
+  footer {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+  
 
 /*-------------------- HOME --------------------*/
 .robot-home {
@@ -243,6 +270,14 @@ footer a:hover {
   line-height: 1.5;
 }
 
+
+@media only screen and (max-width: 400px) {
+  .robot-home {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+  
 
 
 /*-------------------- PROYECTOS main--------------------*/
@@ -338,6 +373,14 @@ li {
 }
 
 
+@media only screen and (max-width: 400px) {
+  .contenido-proyectos {
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+}
+  
+
 /*-------------------- FORMULARIO --------------------*/
 .contenido-contacto {
   padding: 40px 20px;
@@ -417,6 +460,15 @@ button:hover {
 }
 
 
+@media only screen and (max-width: 400px) {
+  .contenido-formulario {
+    width: 100%;
+    padding: 15px 10px;
+    box-sizing: border-box;
+  }
+}
+  
+
 /*-------------------- DETALLE PROYECTO --------------------*/
 .contenido-detalle {
   max-width: 900px;
@@ -487,5 +539,13 @@ td strong {
 }
 
 
+@media only screen and (max-width: 400px) {
+  .contenido-detalle {
+    width: 100%;
+    padding: 15px 10px;
+    box-sizing: border-box;
+  }
+}
+  
 
 
