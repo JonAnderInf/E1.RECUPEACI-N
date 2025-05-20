@@ -55,36 +55,7 @@ header {
   color: white;
 }
 
-/*-------------------- BUSCADOR --------------------*/
-.buscador {
-  margin-top: 10px;
-}
 
-.buscador form {
-  display: flex;
-  align-items: center;
-  background-color: #f1f1f1;
-  padding: 5px;
-}
-
-.buscador input[type="text"] {
-  border: none;
-  padding: 8px;
-  width: 180px;
-  font-size: 14px;
-}
-
-.buscador button {
-  background-color: #464747;
-  border: none;
-  padding: 8px 10px;
-  color: white;
-  font-size: 16px;
-}
-
-.buscador button:hover {
-  background-color: #797c80;
-}
 
 /*-------------------- FOOTER --------------------*/
 footer {
@@ -274,23 +245,98 @@ footer a:hover {
 
 
 
-/*-------------------- PROYECTOS --------------------*/
+/*-------------------- PROYECTOS main--------------------*/
 .contenido-proyectos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .proyecto {
-  width: 45%;
+  width: 48%;
+  margin-bottom: 30px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .imagen-proyecto {
   width: 100%;
-  height: auto;
+  height: 300px; 
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
 }
+
+
+.informacion-proyecto h2 {
+  font-size: 16px;
+  color: #0c9dc9;
+  margin: 10px 0 5px 0;
+  text-transform: uppercase;
+}
+
+.informacion-proyecto .fecha {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.informacion-proyecto p {
+  font-size: 14px;
+  color: #444;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px; 
+}
+
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+
+th {
+  background-color: #0c9dc9;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #e0f0ff;
+}
+
+a {
+  color: #0c9dc9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
 
 /*-------------------- FORMULARIO --------------------*/
 .contenido-contacto {
@@ -366,6 +412,11 @@ button:hover {
   text-align: justify;
 }
 
+.contenido-mapa {
+  margin: 40px 0; 
+}
+
+
 /*-------------------- DETALLE PROYECTO --------------------*/
 .contenido-detalle {
   max-width: 900px;
@@ -427,10 +478,14 @@ td strong {
 
 .tabla-detalle th {
   background-color: #f2f2f2;
-  color: #0c9dc9;
+  color: #72c4dd;
   font-weight: bold;
 }
 
 .tabla-detalle tr:last-child td {
   border-bottom: none;
 }
+
+
+
+
